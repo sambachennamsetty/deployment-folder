@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: restaurantapp
-          image: sambachennamsetty/restaurant-listing-service:
+          image: sambachennamsetty/restaurant-listing-service:25
           imagePullPolicy: Always
           ports:
             - containerPort: 9091
